@@ -1,0 +1,49 @@
+.ruleCard{
+  padding: 5px;
+  border:1px solid rgb(134, 134, 174);
+  margin:3px;
+}
+
+.play{
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ruleColor{
+    padding-left: 5px;
+    border:1px solid rgb(134, 134, 174);
+    margin: 10px;
+}
+
+.statsui{
+    text-align: center;
+    border: 1px solid green;
+}
+
+.ruleCard1{
+    padding: 5px;
+    border:1px solid rgb(134, 134, 174);
+    margin:3px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.stat{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    border:1px  solid green;
+    border-radius: 5%;
+}
+
+.head{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.resetbtn{
+   text-align: center;
+   padding: 15px;
+   
+}

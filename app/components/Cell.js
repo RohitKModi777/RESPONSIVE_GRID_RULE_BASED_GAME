@@ -23,7 +23,7 @@ export default function Cell({ value, locked, onClick }) {
         w-24 h-24
         ${bgColor}
         ${textColor}
-        rounded-xl
+        rounded-[4px]
         font-bold
         text-4xl
         transition-all
@@ -37,9 +37,8 @@ export default function Cell({ value, locked, onClick }) {
         relative
         overflow-hidden
         group
-        ${!locked ? 'hover:shadow-lg' : ''}
-        shadow-md
-        ${bgColor === 'bg-gray-300' ? 'border-gray-400' : bgColor === 'bg-blue-950' ? 'border-blue-700' : 'border-red-700'}
+        shadow-[2px_2px_0px_black]
+        ${bgColor === 'bg-[#e0e0e0]' ? 'border-gray-400' : bgColor === 'bg-[#1a237e]' ? 'border-blue-700' : 'border-red-700'}
       `}
       aria-label={`Cell with value ${value}${locked ? ', locked' : ''}`}
     >

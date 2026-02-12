@@ -100,14 +100,14 @@ export const handleCellClick = (grid, row, col) => {
  */
 export const getBackgroundColor = (value, locked) => {
   if (locked) {
-    return 'bg-red-600';
+    return 'bg-[#dc2626]'; // Red-600
   }
 
   if (value % 2 === 0) {
-    return 'bg-gray-300'; // #e0e0e0 approximation
+    return 'bg-[#e0e0e0]'; // Light Gray
   }
 
-  return 'bg-blue-950'; // #1a237e approximation
+  return 'bg-[#1a237e]'; // Navy Blue
 };
 
 /**
