@@ -71,7 +71,7 @@ export const handleCellClick = (grid, row, col) => {
       const rightCell = updatedGrid[row][rightCol];
       // Only modify if not locked
       if (!rightCell.locked) {
-        rightCell.value = Math.max(0, rightCell.value - 1);
+        rightCell.value = rightCell.value - 1;
       }
     }
   }
